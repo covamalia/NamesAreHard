@@ -3,8 +3,8 @@ using System.Linq;
 
 namespace NamesAreHard
 {
-    class TraditionalEnglishName : IName {
-        TraditionalEnglishName() {
+    class TraditionalWesternName : IName {
+        TraditionalWesternName() {
             MiddleNames = new List<string>();
             GenderPronouns = new EnglishGenderPronouns();
         }
